@@ -1,0 +1,10 @@
+Start new Django project
+	django-admin startproject blog
+
+Django start server
+	python manage.py runserver
+
+Django new app
+    python manage.py startapp [app_name]
+    - Create separate URL file for each app
+    - Register new app inside settings.py
